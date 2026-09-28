@@ -1,0 +1,6 @@
+{
+  "name": "Tratado Ilustrado de Bancos de Dados",
+  "description": "Um livro digital interativo sobre a arquitetura interna, evolução histórica e funcionamento de baixo nível dos Bancos de Dados.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
