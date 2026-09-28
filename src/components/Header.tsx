@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sun, Moon, BookOpen, Compass } from 'lucide-react';
+import { Sun, Moon, BookOpen, Compass, Github } from 'lucide-react';
 import { ThemeMode } from '../types';
 
 interface HeaderProps {
@@ -79,6 +79,18 @@ export const Header: React.FC<HeaderProps> = ({
             <BookOpen className="w-3.5 h-3.5 text-indigo-600 dark:text-indigo-400" />
             <span className="hidden sm:inline">Fontes Oficiais</span>
           </button>
+
+          <a
+            href="https://github.com/thazsobral/tratado-bancos-de-dados"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Ver código-fonte no GitHub"
+            aria-label="Repositório no GitHub"
+            className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 text-xs font-sans font-medium text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-white bg-stone-100/80 dark:bg-stone-800/80 border border-stone-200/80 dark:border-stone-700/80 rounded transition-colors whitespace-nowrap cursor-pointer"
+          >
+            <Github className="w-3.5 h-3.5 text-stone-700 dark:text-stone-300" />
+            <span className="hidden md:inline">GitHub</span>
+          </a>
 
           <button
             onClick={onOpenToc}

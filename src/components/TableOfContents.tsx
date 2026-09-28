@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, BookOpen, Clock, ArrowRight } from 'lucide-react';
+import { X, BookOpen, Clock, ArrowRight, Github } from 'lucide-react';
 
 interface TableOfContentsProps {
   isOpen: boolean;
@@ -124,8 +124,17 @@ export const TableOfContents: React.FC<TableOfContentsProps> = ({
           })}
         </div>
 
-        <div className="pt-4 border-t border-stone-200 dark:border-stone-800 text-xs font-sans text-stone-500 dark:text-stone-400 text-center">
-          Tratado Didático sobre Engenharia de Dados &copy; 2026
+        <div className="pt-4 border-t border-stone-200 dark:border-stone-800 text-xs font-sans text-stone-500 dark:text-stone-400 flex items-center justify-between">
+          <span>Tratado de BD &copy; 2026</span>
+          <a
+            href="https://github.com/thazsobral/tratado-bancos-de-dados"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 text-indigo-700 dark:text-indigo-400 hover:underline"
+          >
+            <Github className="w-3.5 h-3.5" />
+            <span>GitHub</span>
+          </a>
         </div>
       </div>
     </div>

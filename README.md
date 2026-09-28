@@ -125,7 +125,7 @@ O projeto é embasado em 12 referências históricas e normativas da computaçã
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/usuario/tratado-bancos-de-dados.git
+git clone https://github.com/thazsobral/tratado-bancos-de-dados.git
 
 # 2. Acesse a pasta do projeto
 cd tratado-bancos-de-dados

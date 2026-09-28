@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, Compass, BookOpen, Sparkles } from 'lucide-react';
+import { ArrowDown, Compass, BookOpen, Sparkles, Github } from 'lucide-react';
 import frontispieceImage from '../assets/images/editorial_frontispiece_1790579516062.jpg';
 
 interface HeroFrontispieceProps {
@@ -70,14 +70,24 @@ export const HeroFrontispiece: React.FC<HeroFrontispieceProps> = ({ onOpenSource
           </button>
         </div>
 
-        {/* Scroll CTA */}
-        <div className="mt-8 flex justify-center">
+        {/* Scroll CTA & GitHub Action */}
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
           <a
             href="#prologo"
-            className="inline-flex items-center gap-2 text-xs font-sans font-medium text-indigo-700 dark:text-indigo-400 hover:text-indigo-900 dark:hover:text-indigo-300 transition-colors"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-sans font-medium transition-colors shadow-xs"
           >
             <span>Iniciar leitura do Prólogo</span>
             <ArrowDown className="w-3.5 h-3.5 animate-bounce" />
+          </a>
+
+          <a
+            href="https://github.com/thazsobral/tratado-bancos-de-dados"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg border border-stone-300 dark:border-stone-700 bg-white/80 dark:bg-stone-800/80 hover:bg-white dark:hover:bg-stone-700 text-stone-800 dark:text-stone-200 text-xs font-sans font-medium transition-colors"
+          >
+            <Github className="w-3.5 h-3.5 text-stone-700 dark:text-stone-300" />
+            <span>Repositório no GitHub</span>
           </a>
         </div>
       </div>

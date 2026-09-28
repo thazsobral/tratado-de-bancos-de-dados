@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BookOpen, Search, Sparkles, Check, ChevronDown, ChevronUp } from 'lucide-react';
+import { BookOpen, Search, Sparkles, Check, ChevronDown, ChevronUp, Github } from 'lucide-react';
 
 interface GlossaryTerm {
   term: string;
@@ -249,8 +249,19 @@ export const EpilogueAndGlossary: React.FC<EpilogueAndGlossaryProps> = ({
           </p>
         </div>
 
-        {/* Mandatory Official Footer */}
-        <footer className="mt-16 pt-8 border-t border-stone-200 dark:border-stone-800 text-center font-sans text-xs text-stone-500 dark:text-stone-400 leading-relaxed">
+        {/* Mandatory Official Footer with GitHub Repo Link */}
+        <footer className="mt-16 pt-8 border-t border-stone-200 dark:border-stone-800 text-center font-sans text-xs text-stone-500 dark:text-stone-400 leading-relaxed space-y-3">
+          <div className="flex justify-center items-center">
+            <a
+              href="https://github.com/thazsobral/tratado-bancos-de-dados"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-stone-300 dark:border-stone-700 bg-stone-100/70 dark:bg-stone-800/70 hover:bg-stone-200 dark:hover:bg-stone-800 text-stone-800 dark:text-stone-200 text-xs font-sans transition-colors cursor-pointer"
+            >
+              <Github className="w-3.5 h-3.5" />
+              <span>Ver Código-Fonte no GitHub (thazsobral/tratado-bancos-de-dados)</span>
+            </a>
+          </div>
           <p>
             Desenvolvido por ThazSobral para fins de Educação Tecnológica Prática e Interativa. © 2026 — Todos os direitos reservados.
           </p>
