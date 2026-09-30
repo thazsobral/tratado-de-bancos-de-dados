@@ -127,7 +127,7 @@ export const TableOfContents: React.FC<TableOfContentsProps> = ({
         <div className="pt-4 border-t border-stone-200 dark:border-stone-800 text-xs font-sans text-stone-500 dark:text-stone-400 flex items-center justify-between">
           <span>Tratado de BD &copy; 2026</span>
           <a
-            href="https://github.com/thazsobral/tratado-bancos-de-dados"
+            href="https://github.com/thazsobral/tratado-de-bancos-de-dados"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1 text-indigo-700 dark:text-indigo-400 hover:underline"

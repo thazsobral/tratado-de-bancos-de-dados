@@ -81,7 +81,7 @@ export const Header: React.FC<HeaderProps> = ({
           </button>
 
           <a
-            href="https://github.com/thazsobral/tratado-bancos-de-dados"
+            href="https://github.com/thazsobral/tratado-de-bancos-de-dados"
             target="_blank"
             rel="noopener noreferrer"
             title="Ver código-fonte no GitHub"

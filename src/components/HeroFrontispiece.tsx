@@ -81,7 +81,7 @@ export const HeroFrontispiece: React.FC<HeroFrontispieceProps> = ({ onOpenSource
           </a>
 
           <a
-            href="https://github.com/thazsobral/tratado-bancos-de-dados"
+            href="https://github.com/thazsobral/tratado-de-bancos-de-dados"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg border border-stone-300 dark:border-stone-700 bg-white/80 dark:bg-stone-800/80 hover:bg-white dark:hover:bg-stone-700 text-stone-800 dark:text-stone-200 text-xs font-sans font-medium transition-colors"
